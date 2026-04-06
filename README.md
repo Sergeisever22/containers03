@@ -55,7 +55,7 @@
 
 # 4.Запуск контейнера
 
-docker run --name containers03 containers03
+```docker run --name containers03 containers03```
 
 Вывод в консоли:
 
