@@ -75,7 +75,8 @@ ls -l
 **Вывод:**
 
 ```total 4
--rw-r--r-- 1 root root 112 Apr 6 12:00 index.html```
+-rw-r--r-- 1 root root 112 Apr 6 12:00 index.html
+```
 
 **Закрытие контейнера:**
 
