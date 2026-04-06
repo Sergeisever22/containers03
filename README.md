@@ -57,28 +57,29 @@
 
 ```docker run --name containers03 containers03```
 
-Вывод в консоли:
+**Вывод в консоли:**
 
-hello from <идентификатор контейнера>
+```hello from <идентификатор контейнера>```
 
 # 5.Удаление контейнера и запуск с интерактивной сессией
 
-docker rm containers03
-docker run -ti --name containers03 containers03 bash
+```docker rm containers03
+docker run -ti --name containers03 containers03
+```
 
-В контейнере:
+**В контейнере:**
 
-cd /var/www/html/
+```cd /var/www/html/
 ls -l
+```
+**Вывод:**
 
-Вывод:
+```total 4
+-rw-r--r-- 1 root root 112 Apr 6 12:00 index.html```
 
-total 4
--rw-r--r-- 1 root root 112 Apr 6 12:00 index.html
+**Закрытие контейнера:**
 
-Закрытие контейнера:
-
-exit
+``exit``
 
 # Выводы
 В ходе выполнения лабораторной работы я познакомился с основами контейнеризации и научился работать с Docker Desktop на Windows. Я успешно создал Docker-образ на базе Debian, скопировал в него HTML-файл и запустил контейнер.
